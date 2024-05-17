@@ -3,7 +3,7 @@ from langchain import prompts #prompt templates with multiple options
 from langchain import chains #for sequential chains
 from langchain_openai import OpenAI
 
-API_KEY = "sk-proj-6CYVu9sfpT2svyUaBvNeT3BlbkFJVyGgLgRRdK5NEyOEg4pd" #copy OPENAI key generated
+API_KEY = "" #copy OPENAI key generated
 
 llm = OpenAI(model_name="gpt-3.5-turbo-instruct", openai_api_key=API_KEY) #text-ada-001 is now terminated
 
